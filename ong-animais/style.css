@@ -1,8 +1,25 @@
 body {
+    /* 1. Define o caminho da imagem */
+  background-image: url('./imagens/img\ 1.jpg');
+  
+  /* 2. Evita a repetição da imagem */
+  background-repeat: no-repeat;
+  
+  /* 3. Faz com que a imagem cubra toda a tela */
+  background-size: cover;
+  
+  /* 4. Centraliza a imagem no elemento */
+  background-position: center center;
+  
+  /* 5. Mantém a imagem fixa ao rolar a página */
+  background-attachment: fixed;
+  
+  /* Opcional: Adiciona um fundo de cor sólida para o caso da imagem não carregar */
+  background-color: #f0f8ff;
+
     font-family: Arial, sans-serif;
-    font-size: 18px;
-    background-color: #f0f8ff;
-    color: #333;
+    font-size: 18px;    
+    color: black;
     margin: 0;
     padding: 20px;
 }
@@ -38,7 +55,7 @@ h1 {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color:aquamarine;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
