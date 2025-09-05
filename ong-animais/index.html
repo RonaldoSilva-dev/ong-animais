@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socorro Animal</title>
     <link rel="stylesheet" href="style.css">
-    <script src="interatividade.js" defer></script>
 </head>
 <body>
     <h1>Socorrendo animais pelo mundo</h1>
-    <p>Faça sua doação clicando <button><strong>aqui</strong>.</button></p>
     
+    <p>Faça sua doação clicando no botão abaixo.</p>
+
+    <button class="botao-doacao">Fazer doação</button>
+
+    <div id="opcoes-doacao" class="opcoes-container">
+        <h2>Escolha um valor ou forma de doação:</h2>
+        
+        <div class="valores">
+            <button class="btn-valor">R$ 10</button>
+            <button class="btn-valor">R$ 20</button>
+            <button class="btn-valor">Outro valor</button>
+        </div>
+
+        <div class="formas-pagamento">
+            <button class="btn-pagamento">Cartão de Crédito</button>
+            <button class="btn-pagamento">Débito</button>
+            <button class="btn-pagamento">PIX</button>
+            <button class="btn-pagamento">Boleto</button>
+        </div>
+    </div>
+
+    <script src="interatividade.js"></script>
 </body>
 </html>
