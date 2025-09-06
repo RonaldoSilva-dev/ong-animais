@@ -1,3 +1,5 @@
+window.alert('Bem-vido ao site Socorro Animal!')
+
 // Espera o documento ser totalmente carregado
 document.addEventListener("DOMContentLoaded", function() {
     // Seleciona o botão principal de doação
@@ -21,5 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // como redirecionar para uma página de pagamento ou exibir uma mensagem.
 });
 
-window.alert('Bem-vido ao site Socorro Animal!')
 
