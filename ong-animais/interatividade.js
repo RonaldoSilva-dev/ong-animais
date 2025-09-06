@@ -20,3 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Você também pode adicionar lógica para cada botão de valor/pagamento aqui,
     // como redirecionar para uma página de pagamento ou exibir uma mensagem.
 });
+
+window.alert('Bem-vido ao site Socorro Animal!')
+
